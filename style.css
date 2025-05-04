@@ -1,0 +1,167 @@
+body {
+    background-color: #616161;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 25px;
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+#username {
+    width: 250px;
+    height: 25px;
+    margin: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #262626;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    color: #929292;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#password {
+    width: 250px;
+    height: 25px;
+    margin: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #262626;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    color: #929292;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: solid #555555 1px;
+}
+
+button {
+    background-color: #262626;
+    color: #929292;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+    height: 25px;
+    width: 150px;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.Name-label {
+    margin: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.form {
+    text-align: center;
+}
+
+#upload {
+    /*height: 25px;
+    margin: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #262626;
+    border-radius: 10px;
+    border: none;
+    color: #929292;*/
+    display: none;
+}
+
+.upload-styling {
+    background-color: #262626;
+    color: #929292;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 3px;
+    height: auto;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#upload-Button {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 5px;
+    color: coral;
+}
+
+.text {
+    text-align: left;
+    margin-left: 25px;
+    padding-left: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1 {
+        font-size: xx-large;
+        padding: 10px;
+    }
+}

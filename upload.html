@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bilder Hochladen</title>
+</head>
+<body>
+    <h1>Du kannst jetzt deine 20 schönsten Bilder von der Rom Wallfahrt hochladen.</h1>
+
+    <form class="form" id="upload-form" enctype="multipart/form-data">
+        <input type="hidden" id="username" name="username">
+        <label for="upload" class="upload-styling">Wähle bis zu 20 Bilder aus</label>
+        <br>
+        <input type="file" id="upload" name="images[]" accept="image/*" multiple><br>
+        <button type="submit" id="upload-Button">Bild/er hinzufügen</button>
+    </form>
+    <p id="counter">0/25</p>
+
+    <hr>
+
+    <h2>Deine bisherigen Bilder:</h2>
+    <p class="info">Drücke auf ein Bild um es zu löschen</p>
+    <div id="gallery"></div>
+
+    <script src="upload.js"></script>
+</body>
+</html>
